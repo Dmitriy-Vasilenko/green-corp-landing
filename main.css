@@ -50,8 +50,8 @@ button:hover {
 
 .orb-canvas {
     position: absolute;
-    margin-top: 0;
-    margin-right: 0;
+    top: 0;
+    right: 0;
     height: 100%;
 }
 
