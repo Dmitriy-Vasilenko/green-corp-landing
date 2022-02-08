@@ -48,6 +48,13 @@ button:hover {
     transition: background-color 0.3s ease-in;
 }
 
+.orb-canvas {
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    height: 100%;
+}
+
 .about {
     display: flex;
     justify-content: space-around;
@@ -57,6 +64,7 @@ button:hover {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .about__info {
@@ -141,6 +149,7 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     border: 1px solid #E6EAF4;
+    width: 100%;
 }
 
 .features__feedback {
@@ -208,7 +217,6 @@ button:hover {
 .promo__right {
     background: #dd5f26;
     padding: 160px 60px;
-    width: 50%;
 }
 
 .promo__card {
@@ -435,6 +443,7 @@ footer {
     .features__feedback-right {
         display: flex;
         flex-direction: column;
+        align-items: initial;
     }
     .features__box h3 {
         font-size: 36px;
@@ -453,7 +462,6 @@ footer {
     }
     .promo__right {
         padding: 50px 10px;
-        width: auto;
     }
     .promo__card {
         width: auto;
